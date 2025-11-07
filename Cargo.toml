@@ -1,0 +1,16 @@
+[package]
+name = "phantom"
+version = "1.0.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+description = "A fast, lightweight Vim-like text editor built with Rust"
+readme = "README.md"
+repository = "https://github.com/yourusername/phantom"
+license = "MIT"
+keywords = ["editor", "vim", "terminal", "text-editor", "cli"]
+categories = ["command-line-utilities", "text-editors"]
+
+[dependencies]
+color = "0.3.2"
+termion = "1"
+unicode-segmentation = "1"
